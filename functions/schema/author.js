@@ -10,6 +10,14 @@ const authorSchema = new Schema({
     type: Number,
     required: true,
   },
+  contact: {
+    type: String,
+    required: true
+  },
+  address: {
+    type: String,
+    required: true
+  },
   username: String,
   password: String,
 });
